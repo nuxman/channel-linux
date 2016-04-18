@@ -61,4 +61,4 @@ RUN chmod -R 744 /usr/java/jboss
 
 EXPOSE 8888 8009 8443
 
-ENTRYPOINT ["/usr/java/jboss/bin/run.sh ","-c", "channel"]
+CMD ["/usr/java/jboss/bin/run.sh ","-c", "channel"]
